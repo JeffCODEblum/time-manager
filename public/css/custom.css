@@ -1,0 +1,85 @@
+body {
+	font-weight: bold;
+	font-family: arial;
+}
+
+.box {
+	padding: 10px;
+}
+
+.white {
+	background-color: #FFFFFF;
+}
+
+.chart {
+	width: 100%;
+	height: 100%;
+}
+
+.big-name {
+	font-size: 2em;
+	color: #444444;
+}
+
+.mo-list-wrap {
+	padding-top: 5px;
+	border: 1px solid silver;
+	//border-radius: 5px;
+	background-color: silver;
+}
+
+.weekdays {
+	
+}
+
+.weekdays ul {
+	display: block;
+}
+
+.mo-list {
+	padding: 0px;
+	background-color: white;
+	list-style: none;
+	color: #666666;
+}
+
+.mo-list-header {
+	padding: 5px;
+}
+
+.mo-calendar-header {
+	background-color: silver;
+	padding: 5px;
+}
+
+.item {
+	padding: 5px;
+	color: #666666;
+}
+
+.item:hover {
+	background-color: silver;
+}
+
+.item:active {
+	background-color: silver;
+}
+
+.person {
+	display: inline;
+	padding: 5px;
+	color: #666666;
+}
+
+.person:hover {
+	background-color: silver;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}

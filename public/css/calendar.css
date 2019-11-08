@@ -1,0 +1,87 @@
+
+.week li {
+	display: inline-block;
+	text-align: center;
+	//width: 13%;
+	width: 19%;
+	font-size: 1em;
+}
+.year {
+	background-color: #CCCCCC;
+	margin: 0;
+	height: 60px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.year:hover {
+	background-color: #AAAAAA;
+}
+
+.month {
+	background-color: #CCCCCC;
+	margin: 0;
+	height: 60px;
+	text-align: center;
+}
+
+.month:hover {
+	background-color: #AAAAAA;
+}
+
+.buttons li {
+	display: inline-block;
+	width: 40%;
+}
+
+.week {
+	background-color: #DDDDDD;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	height: 60px;
+	padding-top: 10px;
+}
+
+.days {
+	background-color: #EEEEEE;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0;
+}
+.days:hover {
+	border: solid 2px #FFFFFF;
+	padding: 8px;
+}
+
+.days li {
+	display: inline-block;
+	text-align: center;
+	//width: 13.6%;
+	width: 19%;
+	height: 10%;
+	font-size: 1em;
+}
+
+.days li a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+.days li a:hover {
+	color: grey;
+}
+
+.green {
+	background-color: #AAFFAA;
+}
+
+.calendar {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 60px;
+}
+

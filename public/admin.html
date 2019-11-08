@@ -1,0 +1,57 @@
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+		<h1>Admin Console</h1>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-4 mo-list-wrap">
+		<div class="mo-list-header">People</div>
+		<ul class="mo-list">
+			<li class="person" ng-repeat="person in people">
+				{{person.name}}
+			</li>
+		</ul>
+	</div>
+	<div class="admin col-sm-4">
+		<div class="form-group">
+			<input class="form-control" type="text" placeholder="New Person" ng-model="newPerson"></input>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary" type="submit" ng-click="addPerson()">Add</input>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-4 mo-list-wrap">
+		<div class="mo-list-header">Jobs</div>
+		<ul class="mo-list">
+			<li class="person" ng-repeat="job in jobs">
+				{{job.name}}
+				<span style="background-color: {{job.color}}">...</span>
+			</li>
+		</ul>
+	</div>
+	<div class="admin col-sm-4">
+		<div class="form-group">
+			<input class="form-control" type="text" placeholder="New Job" ng-model="newJob"></input>
+			<span style="width: 25px; height: 25px; background-color: {{newColor}};">...</span>
+		</div>
+		
+		<div class="form-group">
+			<input class="form-control" type="number" placeholder="Total Hours" ng-model="newTotalHours"></input>
+		</div>
+
+		<ul class="color-menu">
+			<a href="" ng-repeat="color in colors" ng-click="setNewColor(color)"><li  style="background-color: {{color}}">..</li></a>
+		</ul>
+		
+		<div class="form-group">
+			<button class="btn btn-primary" type="submit" ng-click="addJob()">Add</input>
+		</div>
+	</div>
+</div>
